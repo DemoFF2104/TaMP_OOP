@@ -5,24 +5,10 @@ const arr_EN = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 export const replaceFunc = (tmp) => {
   let text = tmp[1].split('');
-  let stringEncoded = '';
   let replacement = [];
+  let txt1 = tmp[2].split('');
 
   for (let i = 0; i < text.length; i++) {
-    if (arr_ru.indexOf(text[i]) !== -1) {
-      stringEncoded += arr_ru[32 - (arr_ru.indexOf(text[i]) + 1) + 1];
-    } else if (arr_en.indexOf(text[i]) !== -1) {
-      stringEncoded += arr_en[25 - (arr_en.indexOf(text[i]) + 1) + 1];
-    } else if (arr_RU.indexOf(text[i]) !== -1) {
-      stringEncoded += arr_RU[32 - (arr_RU.indexOf(text[i]) + 1) + 1];
-    } else if (arr_EN.indexOf(text[i]) !== -1) {
-      stringEncoded += arr_EN[25 - (arr_EN.indexOf(text[i]) + 1) + 1];
-    }
-  }
-
-  let txt1 = stringEncoded.split('');
-
-  for (let i = 0; i < text.length - 1; i++) {
     let el = `[${text[i]}->${txt1[i]}]`;
     replacement.push(el);
   }

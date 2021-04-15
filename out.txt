@@ -3,8 +3,8 @@ Container contains: 6, elements!
 Text: Абв, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
 Text: abc, Shift: 3, DecodedText: def
 Text: Blue, Shift: 3, DecodedText: Eoxh
-Text: Abc, Replacement: [A->Z]-[b->y]-[c->x], DecodedText: Zyx
-Text: Кот, Replacement: [К->Ф]-[о->р]-[т->м], DecodedText: Фрм
+Text: Abc, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
+Text: Кот, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
 Text: Кот, Shift: 2, DecodedText: Мрф
 Container contains: 0, elements!
 Stop!
