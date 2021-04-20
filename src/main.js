@@ -16,12 +16,12 @@ function main() {
 
   container.in(reader);
   container.out(writer);
+  container.outShift(writer, 'replacement');
   container.clear();
   container.out(writer);
 
   writer.writeLine('Stop!');
 
-  console.log('Stop');
   console.log('Stop');
 
   writer.save();
