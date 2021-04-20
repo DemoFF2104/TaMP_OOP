@@ -1,5 +1,6 @@
 import FinText from './core/FinText.js';
-
+import SetText from './core/setText.js';
+import { compare } from './utils/compare.js';
 export default class Container {
   constructor() {
     this.array = [];
@@ -11,6 +12,16 @@ export default class Container {
       let setText = new FinText();
       setText.in(tmp, this.array);
     }
+  }
+  sort() {
+    let setText = new SetText();
+    this.array.sort((a, b) => {
+      if (compare(setText, a.text, b.text)) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
   }
   out(writer) {
     let c = this.array.length;

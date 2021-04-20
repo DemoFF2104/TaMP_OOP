@@ -4,7 +4,14 @@ Text: Абв, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
 Text: abc, Shift: 3, DecodedText: def
 Text: Blue, Shift: 3, DecodedText: Eoxh
 Text: Abc, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
-Text: Кот, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
+Text: Котя, Replacement: [К->Т]-[о->о]-[т->р]-[я->ф], DecodedText: Торф
 Text: Кот, Shift: 2, DecodedText: Мрф
+Container contains: 6, elements!
+Text: Котя, Replacement: [К->Т]-[о->о]-[т->р]-[я->ф], DecodedText: Торф
+Text: Blue, Shift: 3, DecodedText: Eoxh
+Text: Кот, Shift: 2, DecodedText: Мрф
+Text: Abc, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
+Text: abc, Shift: 3, DecodedText: def
+Text: Абв, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
 Container contains: 0, elements!
 Stop!
