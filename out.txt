@@ -1,12 +1,12 @@
 Start!
 Container contains: 8, elements!
-Text: Абв, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
-Text: abc, Shift: 3, DecodedText: def
-Text: Blue, Shift: 3, DecodedText: Eoxh
-Text: Abc, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
-Text: Кот, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
-Text: Кот, Shift: 2, DecodedText: Мрф
-Text: Abcde, Replacement: [A->e]-[b->d]-[c->c]-[d->b]-[e->a], DecodedText: edcba
-Text: Cowboy, Shift: 15, DecodedText: Rdlqdn
+Text: Абв, Length: 3, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
+Text: abc, Length: 3, Shift: 3, DecodedText: def
+Text: Blue, Length: 4, Shift: 3, DecodedText: Eoxh
+Text: Abc, Length: 3, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
+Text: Кот, Length: 3, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
+Text: Кот, Length: 3, Shift: 2, DecodedText: Мрф
+Text: Abcde, Length: 5, Replacement: [A->e]-[b->d]-[c->c]-[d->b]-[e->a], DecodedText: edcba
+Text: Cowboy, Length: 6, Shift: 15, DecodedText: Rdlqdn
 Container contains: 0, elements!
 Stop!

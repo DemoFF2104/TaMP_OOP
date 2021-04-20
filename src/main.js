@@ -23,7 +23,6 @@ function main() {
 
   console.log('Stop');
 
-
   writer.save();
 }
 
