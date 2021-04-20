@@ -6,6 +6,14 @@ Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
 Text: Abc, Length: 3, Owner: Mike, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
 Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
 Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
-Text: abc, Length: 3, Owner: Kostya, ReplaceNumber: [a->1]-[b->2]-[c->3], DecodedText: 123
+Text: abcd, Length: 4, Owner: Kostya, ReplaceNumber: [a->1]-[b->2]-[c->3]-[d->4], DecodedText: 1234
+Container contains: 7, elements!
+Text: abcd, Length: 4, Owner: Kostya, ReplaceNumber: [a->1]-[b->2]-[c->3]-[d->4], DecodedText: 1234
+Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
+Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
+Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
+Text: Abc, Length: 3, Owner: Mike, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
+Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
+Text: Абв, Length: 3, Owner: Kostya, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
 Container contains: 0, elements!
 Stop!

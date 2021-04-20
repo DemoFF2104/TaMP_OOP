@@ -14,7 +14,6 @@ export default class SetText {
   setLengthText(text) {
     return text.length;
   }
-
   out(writer) {
     let len = this.setLengthText(this.text);
 
