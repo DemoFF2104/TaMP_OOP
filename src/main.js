@@ -18,6 +18,7 @@ function main() {
   container.out(writer);
   container.sort();
   container.out(writer);
+  container.outShift(writer, 'replacement');
   container.clear();
   container.out(writer);
 
