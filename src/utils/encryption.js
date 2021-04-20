@@ -69,3 +69,18 @@ export const shiftFunc = (tmp) => {
     strEncoded,
   };
 };
+export const replaceNumberFunc = (tmp) => {
+  let text = tmp[1].split('');
+  let replaceText = tmp[2].split('').join('');
+  let replacement = [];
+
+  for (let i = 0; i < text.length; i++) {
+    let el = '[' + text[i] + '->' + replaceText[i] + ']';
+    replacement.push(el);
+  }
+
+  return {
+    replacement,
+    replaceText,
+  };
+};

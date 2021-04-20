@@ -22,7 +22,7 @@ function main() {
   writer.writeLine('Stop!');
 
   console.log('Stop');
-  console.log('Stop');
+
 
   writer.save();
 }
