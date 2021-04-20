@@ -24,6 +24,7 @@ export default class inText {
         let replaceNumber = new ReplaceNumber();
         replaceNumber.in(tmp.toString().split(' '));
         replaceNumber.setText(tmp.split(' ')[1].replace(/\r/g, ''));
+        replaceNumber.setName(tmp.split(' ')[3].replace(/\r/g, ''));
         array.push(replaceNumber);
         break;
       default:
