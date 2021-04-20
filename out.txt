@@ -1,10 +1,10 @@
 Start!
 Container contains: 6, elements!
-Text: Абв, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
-Text: abc, Shift: 3, DecodedText: def
-Text: Blue, Shift: 3, DecodedText: Eoxh
-Text: Abc, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
-Text: Кот, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
-Text: Кот, Shift: 2, DecodedText: Мрф
+Text: Абв, Length: 3, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
+Text: abc, Length: 3, Shift: 3, DecodedText: def
+Text: Blue, Length: 4, Shift: 3, DecodedText: Eoxh
+Text: Abc, Length: 3, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
+Text: Кот, Length: 3, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
+Text: Кот, Length: 3, Shift: 2, DecodedText: Мрф
 Container contains: 0, elements!
 Stop!
