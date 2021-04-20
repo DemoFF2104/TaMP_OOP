@@ -4,20 +4,20 @@ import SetText from './SetText.js';
 export default class ReplaceNumber extends SetText {
   constructor() {
     super();
-    this.replacement;
+    this.replaceNumber;
     this.decodedText;
   }
 
   in(tmp) {
-    const { replacement, replaceText } = replaceNumberFunc(tmp);
+    const { replaceNumber, replaceText } = replaceNumberFunc(tmp);
 
-    this.replacement = replacement.join('-');
+    this.replaceNumber = replaceNumber.join('-');
     this.decodedText = replaceText;
   }
 
   out(writer) {
     super.out(writer);
 
-    writer.writeLine(`ReplaceNumber: ${this.replacement}, DecodedText: ${this.decodedText}`);
+    writer.writeLine(`ReplaceNumber: ${this.replaceNumber}, DecodedText: ${this.decodedText}`);
   }
 }
