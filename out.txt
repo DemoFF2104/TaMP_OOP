@@ -1,10 +1,10 @@
 Start!
 Container contains: 6, elements!
-Text: Абв, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
-Text: abc, Shift: 3, DecodedText: def
-Text: Blue, Shift: 3, DecodedText: Eoxh
-Text: Abc, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
-Text: Кот, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
-Text: Кот, Shift: 2, DecodedText: Мрф
+Text: Абв, Owner: Kostya, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
+Text: abc, Owner: Kostya, Shift: 3, DecodedText: dnx
+Text: Blue, Owner: Kostya, Shift: 3, DecodedText: Njvr
+Text: Abc, Owner: Mike, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
+Text: Кот, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
+Text: Кот, Owner: Mike, Shift: 2, DecodedText: Муъ
 Container contains: 0, elements!
 Stop!
