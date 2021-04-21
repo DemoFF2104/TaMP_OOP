@@ -1,6 +1,7 @@
 import FinText from './core/FinText.js';
 import SetText from './core/setText.js';
 import { compare } from './utils/compare.js';
+import { validateLine } from './utils/validate.js';
 export default class Container {
   constructor() {
     this.array = [];
@@ -9,8 +10,10 @@ export default class Container {
   in(reader) {
     while (!reader.fileEmpty()) {
       let tmp = reader.readLine();
-      let setText = new FinText();
-      setText.in(tmp, this.array);
+      if (validateLine(tmp)) {
+        let setText = new FinText();
+        setText.in(tmp, this.array);
+      } else console.log('Ошибка в файле ввода');
     }
   }
   sort() {

@@ -1,9 +1,9 @@
 Start!
 Container contains: 7, elements!
-Text: Абв, Length: 3, Owner: Kostya, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
+Text: abc, Length: 3, Owner: Kostya, Replacement: [a->Я]-[b->ю]-[c->э], DecodedText: Яюэ
 Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
 Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
-Text: Abc, Length: 3, Owner: Mike, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
+Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
 Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
 Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
 Text: abcd, Length: 4, Owner: Kostya, ReplaceNumber: [a->1]-[b->2]-[c->3]-[d->4], DecodedText: 1234
@@ -12,12 +12,12 @@ Text: abcd, Length: 4, Owner: Kostya, ReplaceNumber: [a->1]-[b->2]-[c->3]-[d->4]
 Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
 Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
 Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
-Text: Abc, Length: 3, Owner: Mike, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
+Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
 Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
-Text: Абв, Length: 3, Owner: Kostya, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
+Text: abc, Length: 3, Owner: Kostya, Replacement: [a->Я]-[b->ю]-[c->э], DecodedText: Яюэ
 Container contains: 3, replacement elements!
 Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
-Text: Abc, Length: 3, Owner: Mike, Replacement: [A->x]-[b->y]-[c->z], DecodedText: xyz
-Text: Абв, Length: 3, Owner: Kostya, Replacement: [А->Я]-[б->ю]-[в->э], DecodedText: Яюэ
+Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
+Text: abc, Length: 3, Owner: Kostya, Replacement: [a->Я]-[b->ю]-[c->э], DecodedText: Яюэ
 Container contains: 0, elements!
 Stop!
