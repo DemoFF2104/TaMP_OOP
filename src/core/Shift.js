@@ -26,6 +26,9 @@ export default class Shift extends SetText {
       case 'replacement':
         this.replaceMM(element, writer);
         break;
+      case 'replaceNumber':
+        this.replaceNumberMM(element, writer);
+        break;
       default:
         return 0;
     }
@@ -38,6 +41,11 @@ export default class Shift extends SetText {
   replaceMM(element, writer) {
     this.out(writer);
     element.out(writer);
-    writer.writeLine(`are Replacement and Shift`);
+    writer.writeLine(`are Shift and Replacement`);
+  }
+  replaceNumberMM(element, writer) {
+    this.out(writer);
+    element.out(writer);
+    writer.writeLine(`are Shift and ReplaceNumber`);
   }
 }

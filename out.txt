@@ -1,18 +1,19 @@
 Start!
-Container contains: 6, elements!
+Container contains: 7, elements!
 Text: abc, Length: 3, Owner: Kostya, Replacement: [a->Я]-[b->ю]-[c->э], DecodedText: Яюэ
 Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
 Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
 Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
 Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
 Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
+Text: Abc, Length: 3, Owner: Mike, ReplaceNumber: [A->1]-[b->2]-[c->3], DecodedText: 123
 MultiMethod
 Text: abc, Length: 3, Owner: Kostya, Replacement: [a->Я]-[b->ю]-[c->э], DecodedText: Яюэ
 Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
- are Shift and Replacement
+ are Replacement and Shift
 Text: abc, Length: 3, Owner: Kostya, Replacement: [a->Я]-[b->ю]-[c->э], DecodedText: Яюэ
 Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
- are Shift and Replacement
+ are Replacement and Shift
 Text: abc, Length: 3, Owner: Kostya, Replacement: [a->Я]-[b->ю]-[c->э], DecodedText: Яюэ
 Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
 are Replacement and Replacement
@@ -21,36 +22,54 @@ Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], D
 are Replacement and Replacement
 Text: abc, Length: 3, Owner: Kostya, Replacement: [a->Я]-[b->ю]-[c->э], DecodedText: Яюэ
 Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
- are Shift and Replacement
+ are Replacement and Shift
+Text: abc, Length: 3, Owner: Kostya, Replacement: [a->Я]-[b->ю]-[c->э], DecodedText: Яюэ
+Text: Abc, Length: 3, Owner: Mike, ReplaceNumber: [A->1]-[b->2]-[c->3], DecodedText: 123
+are Replacement and ReplaceNumber
 Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
 Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
  are Shift and Shift
 Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
 Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
-are Replacement and Shift
+are Shift and Replacement
 Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
 Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
-are Replacement and Shift
+are Shift and Replacement
 Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
 Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
  are Shift and Shift
+Text: abc, Length: 3, Owner: Kostya, Shift: 3, DecodedText: dnx
+Text: Abc, Length: 3, Owner: Mike, ReplaceNumber: [A->1]-[b->2]-[c->3], DecodedText: 123
+are Shift and ReplaceNumber
 Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
 Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
-are Replacement and Shift
+are Shift and Replacement
 Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
 Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
-are Replacement and Shift
+are Shift and Replacement
 Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
 Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
  are Shift and Shift
+Text: Blue, Length: 4, Owner: Kostya, Shift: 3, DecodedText: Njvr
+Text: Abc, Length: 3, Owner: Mike, ReplaceNumber: [A->1]-[b->2]-[c->3], DecodedText: 123
+are Shift and ReplaceNumber
 Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
 Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
 are Replacement and Replacement
 Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
 Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
- are Shift and Replacement
+ are Replacement and Shift
+Text: Acc, Length: 3, Owner: Mike, Replacement: [A->x]-[c->y]-[c->z], DecodedText: xyz
+Text: Abc, Length: 3, Owner: Mike, ReplaceNumber: [A->1]-[b->2]-[c->3], DecodedText: 123
+are Replacement and ReplaceNumber
 Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
 Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
- are Shift and Replacement
+ are Replacement and Shift
+Text: Кот, Length: 3, Owner: Mike, Replacement: [К->Т]-[о->о]-[т->р], DecodedText: Тор
+Text: Abc, Length: 3, Owner: Mike, ReplaceNumber: [A->1]-[b->2]-[c->3], DecodedText: 123
+are Replacement and ReplaceNumber
+Text: Кот, Length: 3, Owner: Mike, Shift: 2, DecodedText: Муъ
+Text: Abc, Length: 3, Owner: Mike, ReplaceNumber: [A->1]-[b->2]-[c->3], DecodedText: 123
+are Shift and ReplaceNumber
 Container contains: 0, elements!
 Stop!
