@@ -18,4 +18,26 @@ export default class Shift extends SetText {
     super.out(writer);
     writer.writeLine(`Shift: ${this.shift}, DecodedText: ${this.decodedText}`);
   }
+  multiMethod(element, writer) {
+    switch (Object.keys(element)[0]) {
+      case 'shift':
+        this.shiftMM(element, writer);
+        break;
+      case 'replacement':
+        this.replaceMM(element, writer);
+        break;
+      default:
+        return 0;
+    }
+  }
+  shiftMM(element, writer) {
+    this.out(writer);
+    element.out(writer);
+    writer.writeLine(` are Shift and Shift`);
+  }
+  replaceMM(element, writer) {
+    this.out(writer);
+    element.out(writer);
+    writer.writeLine(`are Replacement and Shift`);
+  }
 }

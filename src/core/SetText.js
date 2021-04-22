@@ -11,6 +11,7 @@ export default class SetText {
     this.name = name;
   }
   in() {}
+  multiMethod() {}
   setLengthText(text) {
     return text.length;
   }

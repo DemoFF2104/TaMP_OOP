@@ -16,9 +16,7 @@ function main() {
 
   container.in(reader);
   container.out(writer);
-  container.sort();
-  container.out(writer);
-  container.outShift(writer, 'replacement');
+  container.multiMethod(writer);
   container.clear();
   container.out(writer);
 
