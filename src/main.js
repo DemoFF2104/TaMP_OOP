@@ -12,21 +12,26 @@ function main() {
   writer.writeLine('Start!');
 
   let container = new Container();
-  let reader = new Reader('in.txt');
+  let reader;
+  try {
+    reader = new Reader('in.txt');
 
-  container.in(reader);
-  container.out(writer);
-  container.sort();
-  container.out(writer);
-  container.outShift(writer, 'replacement');
-  container.clear();
-  container.out(writer);
+    container.in(reader);
+    container.out(writer);
+    container.sort();
+    container.out(writer);
+    container.outShift(writer, 'replacement');
+    container.clear();
+    container.out(writer);
 
-  writer.writeLine('Stop!');
+    writer.writeLine('Stop!');
 
-  console.log('Stop');
+    console.log('Stop');
 
-  writer.save();
+    writer.save();
+  } catch (e) {
+    console.log('Файла нет');
+  }
 }
 
 main();
